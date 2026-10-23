@@ -1,0 +1,39 @@
+/* html {
+    font-size: 20px;
+} */
+
+body 
+    {
+    width: 50vw;
+    /* font-size: 0.8rem; */
+    
+}
+
+/* p {
+    min-height: 10.5vh;
+    min-height: 2.5dvh;
+} */
+
+/* header {
+    width: 50%;
+}
+
+h1 {
+    border: 1px dashed red;
+    width: 100%;
+} */
+header {
+    width: 100%;
+}
+
+h1 {
+    border: 1px dashed red;
+    width: 100%;
+}
+
+p {
+    width: 50ch;
+    height: 10vh;
+}
+
+
