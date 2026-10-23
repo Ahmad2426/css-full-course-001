@@ -1,3 +1,7 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 body {
     font-size: 22px;
     background-color: #333;
@@ -8,6 +12,19 @@ body {
     color: red;
 }
 
-.gray {
+p {
+    color: yellowgreen;
+}
+
+p span {
+    text-transform: uppercase;
+    background-color: red;
+}
+
+#pink {
+    color: pink;
+}
+
+.aqua {
     color: aqua;
 }
