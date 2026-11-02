@@ -1,0 +1,35 @@
+/* h1 {
+    box-sizing: content-box;
+    border: 2px dashed red;
+    width: 400px;
+    font-size: 30px;
+    padding: 0.5em;
+    margin-inline-start: 20px;
+    margin-inline-end: 10px;
+} */
+
+
+
+/* 
+0.5em یعنی چه؟
+em یک Relative Unit (واحد نسبی) است.
+
+وقتی برای padding یا margin استفاده می‌شود، 
+مقدار em نسبت به font-size همان عنصر محاسبه می‌شود. */
+
+/* فرض کنیم:
+h1 {
+    font-size: 30px;
+    padding: 0.5em;
+}
+محاسبه:
+0.5 × 30px = 15px */
+
+/* چند مقدار پیش‌فرض مهم
+html / body  → 16px
+h1           → 2em  ≈ 32px
+h2           → 1.5em ≈ 24px
+h3           → 1.17em ≈ 18.72px
+h4           → 1em   = 16px
+h5           → 0.83em ≈ 13.28px
+h6           → 0.67em ≈ 10.72px */
