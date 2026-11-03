@@ -13,7 +13,8 @@ body
 }
 
 .container {
-    border: 2px dashed red;
+    
+    border: 15px double rgb(95, 93, 93);
     font-size: 1rem;
     /* margin-top: 1.5rem;
     margin-right: 2em;
@@ -22,8 +23,8 @@ body
     padding: 1.5em; */
     margin: 2em 1.5em;
     padding: 2rem 1.5rem;
-    outline: 5px solid black;
-    outline-offset: 5px;
+    outline: 5px solid rgb(17, 3, 3);
+    outline-offset: -10px;
 }
 
 .circle {
