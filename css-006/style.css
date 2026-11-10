@@ -1,0 +1,12 @@
+body {
+    padding: 15%;
+}
+
+.container {
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: 2px;
+    color: purple;
+    font: inherit;
+    font-size: 2rem;
+}
