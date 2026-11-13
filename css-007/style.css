@@ -1,0 +1,30 @@
+body {
+    padding: 10%;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    
+
+
+}
+
+
+a:visited {
+    color: rgb(0, 19, 128);
+}
+
+a:hover, a:focus {
+    color: red;
+    background: rgb(220, 226, 226);
+    /* opacity: 0.1; */
+    opacity: 1;
+}
+
+a:active {
+    color: yellowgreen;
+}
+
+
