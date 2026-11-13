@@ -1,0 +1,110 @@
+body {
+    padding: 10%;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body::selection {
+    background-color: red;
+    color: yellow;
+}
+
+/* on HTML 
+<ol start="5" reversed>
+            <li>Step One</li>
+            <li>Step Two</li>
+            <li>Step Three</li>
+        </ol> */
+
+/* ol {
+    list-style-type: decimal-leading-zero;
+
+    list-style-type: none; 
+    list-style-type: square; 
+
+
+
+} */
+
+ol{
+    
+    padding: 2rem;
+}
+
+ol :not(.special) {
+    color: gray;
+}
+ 
+
+
+.OrderedListOne li::marker {
+    color: red;
+    content: "Only for 5$  ";
+    
+
+}
+
+
+
+ul{
+    list-style-type: none;
+    text-align: left;
+    padding: 0%
+    /* list-style-position: inside;
+    color: blue;
+    line-height: 1.6;
+    
+    list-style-image: url(../checkmark.png) */;
+
+    
+    
+}
+
+/* ul li::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../checkmark.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+} */
+
+ul li:nth-child(3) {
+    color: rgb(0, 26, 255);
+}
+
+ul li:nth-child(even) {
+    color: red;
+}
+
+
+
+:is(h1, h2) {
+    color: purple;
+}
+
+article:has(img) {
+    border: 2px solid red;
+}
+
+h2::before {
+    content: "★ ";
+    color: orange;
+}
+
+ul ::before {
+    content: " ✓  ";
+    color: green;
+}
+
+h1::first-letter {
+    font-size: 100px;
+    color: red;
+}
+
+ol::first-line {
+    color: blue;
+    font-weight: bold;
+}
