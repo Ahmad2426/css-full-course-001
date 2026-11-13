@@ -1,12 +1,58 @@
 body {
     padding: 15%;
+    /* font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0; */
+
 }
 
+
 .container {
-    text-decoration: underline;
-    text-transform: capitalize;
-    text-shadow: 2px;
-    color: purple;
-    font: inherit;
+   /* 1- */ /* text-decoration: underline; */
+   /* 2- */ /* text-decoration: overline; */
+  /* 3- */  /* text-decoration: line-through; */
+
+  /* 4- */  /* text-transform: capitalize; */
+  /* 5- */  /* text-transform: lowercase; */
+  /* 6- */ /* text-transform: uppercase; */
+
+  /* 7- */  text-indent: 3rem;
+
+   /* 8- */  /* text-align: right; */
+   /* 9- */  /* text-align: center; */
+   /* 10- */  /* text-align: justify; */
+
+  /* 11- */  line-height: 25px;
+  /* 12- */  letter-spacing: 1px;
+    
+  /* 13- */  color: purple;
+    
+  /* 14- */  word-spacing: 5px;
+
+  /* 15- */ font-size: 1rem;
+
+  /* 16- */ /* font-weight: 100; */
+  /* 17- */ /* font-weight: 900; */
+
+  /* 17- */ /* font-style: italic; */
+  /* 17- */ font-style: oblique;
+
+
+
+}
+
+.HeadOne{
+    font-size: 3rem;
+    color: red;
+    text-indent: 2em;
+}
+.HeadTwo {
     font-size: 2rem;
+    color: blue;
 }
